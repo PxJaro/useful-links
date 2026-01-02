@@ -17,7 +17,6 @@ A collection of handy links, organized by category. This project is built with H
    <div class="center header-card small">
        <h2>Category Name</h2>
    </div>
-4.
 ```
 
 4. Add links with this structure:
@@ -27,7 +26,6 @@ A collection of handy links, organized by category. This project is built with H
     <img src="example_logo.png" alt="Logo Description" style="padding:4px;width:28px;height:28px;">
     Link Name
     </a>
-6.
 ```
 
 5. Repeat for as many links and categories as you like.
