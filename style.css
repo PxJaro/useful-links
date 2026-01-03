@@ -32,10 +32,12 @@
             margin-bottom: 10px;
         }
 
-        .link:hover {
-            background-color: rgb(70, 70, 70);
-            transform: scale(1.05);
-            transition: 0.2s;
+        @media (hover: hover) and (pointer: fine) { 
+            .link:hover {
+                background-color: rgb(70, 70, 70);
+                transform: scale(1.05);
+                transition: 0.2s;
+            }
         }
 
         .header-card {
@@ -50,11 +52,13 @@
             transition: transform 0.15s ease, box-shadow 0.15s ease;
         }
 
-        .header-card:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 6px 14px rgba(0, 0, 0, 0.35);
+        @media (hover: hover) and (pointer: fine) {
+            .header-card:hover {
+                transform: translateY(-2px);
+                box-shadow: 0 6px 14px rgba(0, 0, 0, 0.35);
+            }
         }
-
+        
         .header-card.small {
             background-color: rgb(70, 70, 70);
             padding: 6px 14px;
