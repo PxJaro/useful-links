@@ -6,7 +6,9 @@ A collection of handy links, organized by category. This project is built with H
 
 - **index.html**: main page containing all links.
 - **images/**: (optional) folder for logos or icons.
-- **styles**: CSS is embedded in the `<style>` section of the HTML (you can also move it to a separate file).
+- **style.css**: contains all CSS for the project. The CSS is linked in `index.html` via a `<link>` tag.
+  To modify the look and feel of the page, edit `style.css`.
+
 
 ## How to edit links
 
