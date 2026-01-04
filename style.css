@@ -9,11 +9,11 @@
             color: white;
             text-decoration: none;
         }
-
-        a:hover {
-            color: rgb(200, 200, 200);
+        @media (hover: hover) and (pointer: fine) {
+            a:hover {
+                color: rgb(200, 200, 200);
+            }
         }
-
         .center {
             display: block;
             margin: auto;
