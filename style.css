@@ -20,10 +20,19 @@
             width: fit-content;
         }
 
+        .link-grid {
+            display: grid;
+            gap: 1rem;
+            margin: 0 auto 2rem;
+            max-width: 550px;
+        }
+
+        
+
         .link {
             display: flex;
             align-items: center;
-            gap: 10px;
+            gap: 0.75rem;
             border: solid rgb(65, 65, 65) 2px;
             padding: 10px;
             background-color: rgb(65, 65, 65);
@@ -31,6 +40,18 @@
             box-shadow: 0 4px 8px 0 rgb(56, 56, 56), 0 6px 20px 0 rgb(56, 50, 56);
             margin-bottom: 10px;
             transition: background-color 0.2s, transform 0.2s;
+        }
+
+        @media (orientation: portrait) {
+            .link-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        @media (orientation: landscape) {
+            .link-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
         }
 
         @media (hover: hover) and (pointer: fine) { 
