@@ -136,3 +136,13 @@
         .footer a:hover {
             opacity: 100%;
         }
+
+        .about {
+            text-align: left;
+            margin: 0 auto;
+            max-width: 50%;
+        }
+
+        .about h1, h2 {
+            text-align: center;
+        }
