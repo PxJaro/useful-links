@@ -143,17 +143,30 @@
             }
         }
        
+        @media (orientation: landscape) {
+            .about {
+                text-align: left;
+                margin: 0 auto;
+                max-width: 50%;
+            }
 
-        .about {
-            text-align: left;
-            margin: 0 auto;
-            max-width: 50%;
+            .about h1, h2 {
+                text-align: center;
+            }
         }
 
-        .about h1, h2 {
-            text-align: center;
-        }
+        @media (orientation: portrait) {
+            .about {
+                text-align: left;
+                margin: 0 auto;
+                max-width: 100%;
+            }
 
+            .about h1, h2 {
+                text-align: center;
+            }
+        }
+    
         .about-card {
             border: 1px solid rgb(65, 65, 65);
             background-color: rgb(65, 65, 65);
